@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainListSecurities">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp">
+
+        </Space>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/listView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="73dp"
+                android:background="?android:selectableItemBackground"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.047"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.038"
+                app:srcCompat="@mipmap/back2_foreground"
+                tools:ignore="ImageContrastCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <Space
+                android:layout_width="23dp"
+                android:layout_height="match_parent">
+
+            </Space>
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="235dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.05"
+
+                android:textColor="#01431a"
+                android:textSize="32sp"
+                android:textStyle="bold"
+
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.036" />
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+
+        </ListView>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_sort"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="207dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonactivitty4"
+        android:contentDescription="@string/registr"
+        android:text="@string/button_registr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92"
+        tools:ignore="ImageContrastCheck" />
+
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="181dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:letterSpacing="0.07"
+        android:text="Сортировка"
+        android:textColor="#01431a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_sort"
+        app:layout_constraintEnd_toEndOf="@+id/btn_sort"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="@+id/btn_sort"
+        app:layout_constraintTop_toTopOf="@+id/btn_sort" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

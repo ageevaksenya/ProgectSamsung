@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">My Application111</string>
+    <string name="name_registr">Имя</string>
+    <string name="email_registr">Email</string>
+    <string name="Passord_registr">Пароль</string>
+    <string name="button_registr">Зарегестрироваться</string>
+    <string name="registr">Зарегистрироваться!</string>
+    <string name="textregistr">Регистрация</string>
+    <string name="textbutton">Зарегистрироваться</string>
+    <string name="entrancedecor">Погрузись в мир инвестиций!</string>
+    <string name="entrance">Вход</string>
+    <string name="account">Еще нет аккаунта?</string>
+    <string name="account2">Создать аккаунт</string>
+    <string name="description_account">Создать аккаунт</string>
+    <string name="obl">Облигации</string>
+    <string name="list_is_empty">List is Empty</string>
+    <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="photo">Сменить фото</string>
+    <string name="robot">робот помощник</string>
+    <string name="purchase">Что купить?</string>
+    <string name="currency">валюта</string>
+    <string name="currency2">ВАЛЮТА</string>
+    <string name="futures">futures</string>
+    <string name="futures2">ФЬЮЧЕРСЫ</string>
+    <string name="money">money</string>
+    <string name="bonds">Bonds</string>
+    <string name="bonds2">ОБЛИГАЦИИ</string>
+    <string name="stocks">Stocks</string>
+    <string name="stocks2">АКЦИИ</string>
+
+    <string name="blind">blind</string>
+    <string name="bottom_curtain">bottom curtain</string>
+    <string name="enter">Вход</string>
+</resources>

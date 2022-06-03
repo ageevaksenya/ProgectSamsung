@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/drawable/list.xml" value="0.11574074074074074" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/drawable/list2.xml" value="0.11574074074074074" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/drawable/mesto3.xml" value="0.18020833333333333" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/drawable/mesto_3_background.xml" value="0.1" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/drawable/personimage_round.xml" value="0.17552083333333332" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/drawable/pressed.xml" value="0.11574074074074074" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/drawable/pressed2.xml" value="0.11574074074074074" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/drawable/rectangle_47.xml" value="0.1" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/drawable/row.xml" value="0.19114583333333332" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/drawable/row2.xml" value="0.11574074074074074" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/drawable/sound.xml" value="0.1796875" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/drawable/sound2.xml" value="0.1" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/drawable/trapeziod.xml" value="0.11574074074074074" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/drawable/trapeziod2.xml" value="0.11574074074074074" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/activity_main.xml" value="0.15920398009950248" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/activity_main2.xml" value="0.3333333333333333" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/activity_main3.xml" value="0.22" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/activity_main4.xml" value="0.14666666666666667" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/activity_main5.xml" value="0.1" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/activity_main6.xml" value="0.16666666666666666" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/activity_main7.xml" value="0.16666666666666666" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/activity_main8.xml" value="0.22" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/activity_main9.xml" value="0.16666666666666666" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/activity_searchable.xml" value="0.1" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/fragment1.xml" value="0.22" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/fragment_item.xml" value="0.1" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/fragment_item_list.xml" value="0.1" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/fragment_my_dialog.xml" value="0.4466666666666667" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/list_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/list_item2.xml" value="0.3333333333333333" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/reqord.xml" value="0.14492753623188406" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/rowlayout.xml" value="0.16666666666666666" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/runitem2.xml" value="0.3333333333333333" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/runitem_layout.xml" value="0.3404255319148936" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/searchable.xml" value="0.1" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/layout/toast.xml" value="0.12092391304347826" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/menu/menu_main.xml" value="0.22" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/menu/menu_main2.xml" value="0.16354166666666667" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/mipmap-anydpi-v26/1 место.xml" value="0.19114583333333332" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/mipmap-anydpi-v26/1_mesto.xml" value="0.14351851851851852" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/mipmap-anydpi-v26/ic_launcher14.xml" value="0.18020833333333333" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/mipmap-anydpi-v26/mesto_1.xml" value="0.18020833333333333" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/mipmap-anydpi-v26/money.xml" value="0.1" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/mipmap-anydpi-v26/personimage_round.xml" value="0.17552083333333332" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/mipmap-anydpi-v26/sound2.xml" value="0.1796875" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/mipmap-anydpi-v26/sound_round.xml" value="0.1796875" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/xml/run_item2.xml" value="0.14402173913043478" />
+        <entry key="..\:/Progect1-kmortyk-run-app-fixes/app/src/main/res/xml/searchable.xml" value="0.1" />
+        <entry key="..\:/The world of investment/app/src/main/res/drawable/probn.xml" value="0.16510416666666666" />
+        <entry key="..\:/The world of investment/app/src/main/res/layout/activity_main.xml" value="0.15081521739130435" />
+        <entry key="..\:/The world of investment/app/src/main/res/layout/activity_main2.xml" value="0.109375" />
+        <entry key="..\:/The world of investment/app/src/main/res/layout/activity_main3.xml" value="0.109375" />
+        <entry key="..\:/The world of investment/app/src/main/res/layout/activity_main4.xml" value="0.1640625" />
+        <entry key="..\:/The world of investment/app/src/main/res/layout/activity_main6.xml" value="0.15081521739130435" />
+        <entry key="..\:/The world of investment/app/src/main/res/layout/activity_main7.xml" value="0.1" />
+        <entry key="..\:/The world of investment/app/src/main/res/layout/activity_main8.xml" value="0.22" />
+        <entry key="..\:/The world of investment/app/src/main/res/layout/activity_main9.xml" value="0.1" />
+        <entry key="..\:/The world of investment/app/src/main/res/layout/fragment_blank.xml" value="0.1640625" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/buttonactivitty4.xml" value="0.16875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/circle.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/color1.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/fon.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/fon2.xml" value="0.18020833333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/ic_launcher11_background.xml" value="0.13518518518518519" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/ic_launcher_background.xml" value="0.13518518518518519" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/image.xml" value="0.18177083333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/image2.xml" value="0.18177083333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/list.xml" value="0.16875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/pressed.xml" value="0.16875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/rectangle_2.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/rectangle_40.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/rectangle_41.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/rectangle_47.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/rectangle_51.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/row.xml" value="0.16875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/shadow.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/shadow2.xml" value="0.18177083333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/text.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/drawable/trapeziod.xml" value="0.1515625" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/layout/activity_main3.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/layout/activity_main4.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/layout/activity_main5.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/layout/activity_main6.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/layout/activity_main7.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/layout/activity_main8.xml" value="0.13854166666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/layout/fragment1.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/layout/fragment2.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/layout/list_item.xml" value="0.4391891891891892" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/layout/rowlayout.xml" value="0.15760869565217392" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication111/app/src/main/res/layout/runitem_layout.xml" value="0.4466666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

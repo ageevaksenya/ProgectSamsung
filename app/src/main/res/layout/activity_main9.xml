@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPurchaseSale">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <Space
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="37dp">
+
+    </Space>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="80dp"
+            android:layout_height="72dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.636"
+            android:background="?android:selectableItemBackground"
+            app:srcCompat="@mipmap/back2_foreground"
+            tools:ignore="ImageContrastCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/im_money"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/textprice"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/money1" />
+
+
+        <TextView
+
+            android:id="@+id/textprice"
+            android:layout_width="116dp"
+            android:layout_height="49dp"
+            android:letterSpacing="0.07"
+            android:layout_gravity="center"
+            android:textColor="#01431a"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.791"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.7" />
+
+        <TextView
+            android:id="@+id/t_name"
+            android:layout_width="174dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:letterSpacing="0.07"
+            android:textColor="#01431a"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.238"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/t_comp"
+            android:layout_width="178dp"
+            android:layout_height="39dp"
+            android:gravity="center"
+            android:letterSpacing="0.07"
+            android:textColor="#01431a"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.241"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/t_name" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_width="406dp"
+        android:layout_height="447dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.419" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chart"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chart"
+            app:layout_constraintVertical_bias="0.16000003">
+
+            <ImageButton
+                android:id="@+id/btn_price"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="180dp"
+                android:layout_height="48dp"
+                android:background="@drawable/rectangle_47"
+                android:contentDescription="Купить"
+                android:text="Купить"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.857"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.86"
+                tools:ignore="ImageContrastCheck">
+
+            </ImageButton>
+
+            <TextView
+                android:id="@+id/textpurchase"
+                android:layout_width="184dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:letterSpacing="0.07"
+                android:text="Купить"
+                android:textColor="#01431a"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/btn_price"
+                app:layout_constraintEnd_toEndOf="@+id/btn_price"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/btn_price"
+                app:layout_constraintTop_toTopOf="@+id/btn_price"
+                app:layout_constraintVertical_bias="0.75" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chart"
+            app:layout_constraintVertical_bias="0.16000003">
+
+            <ImageButton
+                android:id="@+id/btn_pr"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="180dp"
+                android:layout_height="48dp"
+                android:background="@drawable/rectangle_47"
+                android:contentDescription="Продать"
+                android:text="Продать"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.857"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.86"
+                tools:ignore="ImageContrastCheck">
+
+            </ImageButton>
+
+            <TextView
+                android:id="@+id/textpr"
+                android:layout_width="184dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:letterSpacing="0.07"
+                android:text="Продать"
+                android:textColor="#01431a"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/btn_pr"
+                app:layout_constraintEnd_toEndOf="@+id/btn_pr"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/btn_pr"
+                app:layout_constraintTop_toTopOf="@+id/btn_pr"
+                app:layout_constraintVertical_bias="0.75" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="164dp"
+            android:layout_height="59dp"
+            android:gravity="center"
+            android:text="Количество:"
+
+            android:textColor="#01431a"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView4"
+            app:layout_constraintHorizontal_bias="0.947"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.949" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="178dp"
+            android:layout_height="59dp"
+            android:layout_marginBottom="32dp"
+            android:gravity="center_vertical"
+
+            android:letterSpacing="0.07"
+
+            android:textColor="#01431a"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.699"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+    </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/im_robot_sale"
+        android:layout_width="229dp"
+        android:layout_height="217dp"
+        android:layout_gravity="bottom"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
+    <ImageView
+        android:id="@+id/im_robot_purche"
+        android:layout_width="229dp"
+        android:layout_height="217dp"
+        android:layout_gravity="bottom"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

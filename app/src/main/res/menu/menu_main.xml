@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+
+        <item
+            android:id="@+id/menu_search"
+            android:orderInCategory="100"
+            android:title="поиск"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/menutoken"
+            android:orderInCategory="200"
+            android:title="сменить токен"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/menusoundturn"
+            android:orderInCategory="300"
+            android:title="отключить звук"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/menusound"
+            android:orderInCategory="300"
+            android:title="включить звук"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/menuoutput"
+            android:orderInCategory="400"
+            android:title="выход"
+            app:showAsAction="never" />
+    </group>
+
+</menu>
+
+

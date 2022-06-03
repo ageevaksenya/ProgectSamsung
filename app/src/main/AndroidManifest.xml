@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication111">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher12_foreground"
+        android:label="Мир инвестиций!"
+        android:roundIcon="@mipmap/ic_launcher12_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication111">
+        <activity
+            android:name=".SearchableActivity"
+            android:exported="false">
+        <intent-filter>
+            <action android:name="android.intent.action.SEARCH" />
+        </intent-filter>
+        <meta-data android:name="android.app.searchable"
+            android:resource="@xml/searchable"/>
+    </activity>
+        <activity
+            android:name=".MainPurchaseSale"
+            android:exported="false" />
+        <activity
+            android:name=".MainMyPurchase"
+            android:exported="false" />
+        <activity
+            android:name=".MainPersonalInformation"
+            android:exported="false" />
+        <activity
+            android:name=".MainLeaders"
+            android:exported="true">
+            <meta-data android:name="android.app.default_searchable"
+                android:value=".SearchableActivity" />
+        </activity>
+        <activity
+            android:name=".MainPurchase"
+            android:exported="false" />
+        <activity
+            android:name=".MainListSecurities"
+            android:exported="true">
+            <meta-data android:name="android.app.default_searchable"
+                android:value=".SearchableActivity" />
+
+        </activity>
+        <activity
+            android:name=".MainChoice"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainAuthorization"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainRegistration"
+            android:exported="true"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <service android:enabled="true" android:name=".MyService" />
+    </application>
+
+</manifest>
